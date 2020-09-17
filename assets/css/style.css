@@ -1,7 +1,31 @@
+html {
+  height: 100%;
+  margin: 0;
+  background-image: url(https://cdn.hipwallpaper.com/i/92/33/q2LRKO.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: auto;
+  
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 72px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  color: white;
+  text-shadow: 1.5px 2.5px 5px purple;
+  border-bottom: 10px solid black;
+  background-color: darkslategrey;
+  padding: -30px;
+  margin-bottom: -30px;
 }
 
 h4, h5 {
@@ -10,32 +34,46 @@ h4, h5 {
     color:  rgba(0, 0, 0, 0.534);
 }
 
+.menuCont {
+  width: fit-content;
+}
 
-.jumbotron {
-  text-align: center;
-  background-color: rgb(84, 110, 99);
+div.menuBtns {
   color: white;
-  border-radius: 0;
-  border-bottom: 10px solid black;
-  width: 100%;
-  height: 100%;
-}
-
-.footer {
-  border-top: 5px, solid, black;
-}
-
-footer div.copyright {
-  position: sticky;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  text-shadow: 1px 1.5px 3px purple;
+  position: fixed;
+  bottom: 60px;
   text-align: center;
-  border-top: 10px solid black;
-  margin-top: 30px;
-  padding: 15px;
-  background-color: #d3d3d3;
+  margin-bottom: -11px;
+  font-size: 36px;
+  font-family: 'Cinzel', serif;
+  justify-content: space-evenly;
+  display: inline-flex;
+  width: 100%;
+
 }
+
+.menuBtns p {
+padding: 5px;
+}
+
+.pbtn {
+  font-size: 16px;
+}
+
+#stickyfooter {
+ position: fixed;
+ padding: 10px 10px 0px 10px;
+ bottom: 0;
+ width: 100%;
+ /* height of footer */
+ height: 40px;
+ background-color: gray;
+ text-align: center;
+ font-weight: 900;
+ border-top: 5px solid purple
+}
+
 
 @media screen and (max-width: 768px) {
     body {
