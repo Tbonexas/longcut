@@ -1,66 +1,132 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chronos</title>
-
-<link rel="stylesheet" href="chronos.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     
-<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <head>
+    
+        <meta charset="UTF-8" />
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+        <link rel="stylesheet" href="assets/css/reset.css" />
+    
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
 
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@800;900&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="assets/css/style.css" />
-
-<title> The Long Cut App </title>
-
-<script src="assets/js/script.js"></script>
-
-
-</head>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@800;900&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="assets/css/style.chronos.css" />
+    
+        <title> The Long Cut App </title>
+    
+        <script src="assets/js/script.js"></script>
+    
+    </head>
 <body>
 
-   <h1>The Long Cut</h1>
-   <p>Chronicles</p>
-   <div class="container">
-   
+   <h1><a href="index.html">The Long Cut </a></h1></strong>
+
+   <h2>Chronicles Page  <i class="fas fa-history"></i></h2>
+
+   <div class="container" style="background-color:rgba(128, 0, 128, 0.65);">
         <tr>
           <th>Records</th>
           <td><input type="text"></td>
-          <td><button type="button">Enter</button>
+          <td><button type="button" id="Search">Search</button>
             </td>
           
           <th>Accomplishments</th>
           <td><input type="text"></td>
-          <td><button type="button">Enter</button>
+          <td><button type="button" id="Search">Search</button>
           
           
-         <th>Name</th>
+          <th>Name</th>
         <td><input type="text"></td>
-          <td><button type="button">Enter</button>
+          <td><button type="button" id="Search">Search</button>
         </tr>
-       
-        </tr>
-      </table>
     </div> 
 
-    <div id="navBtns">
-        <p>Navigate</p>
-    </div>
-    <div id="stickyfooter">
-       
-        Routes Constellated by the Stars 🛣 🌟<br> The Long Cut © 
-    </div>
- 
+    <div class = "menuCont">
     
+      <div class="menuBtns">      
+          
+          <div id="navBtn"><a href="navigate.html">
               
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    
-
-
-</body>
-</html>
+              <i class="fas fa-search-location"></i>
+              
+              <br>
+              
+              <p class="pbtn"> Navigate </p>
+  
+          </a></div>
+  
+          <br>
+      
+          <div id="prospBtn"><a href="prospect.html">
+              
+              <i class="fas fa-map-signs"></i>
+              
+              <br>
+              
+              <p class="pbtn"> Prospect </p>
+  
+          </a></div>
+  
+          <br>
+      
+          <div id="recordBtn"><a href="record.html">
+              
+              <i class="fas fa-video"></i>
+              
+              <br>
+              
+              <p class="pbtn"> Record </p>
+              
+          </a></div>
+  
+          <br>
+      
+          <div id="chroniclesBtn"><a href="chronos.html">
+              
+              <i class="fas fa-history"></i>
+              
+              <br>
+              
+              <p class="pbtn"> Chronicles </p>
+              
+          </a></div>
+  
+          <br>
+      
+          <div id="driverBtn"><a href="driver.html">
+              
+              <i class="fas fa-car-side"></i>
+              
+              <br>
+              
+              <p class="pbtn"> Driver </p>
+              
+          </a></div>
+      
+      </div>
+  
+    </div>
+  
+      <div id="stickyfooter">
+         
+          Routes Constellated by the Stars 🛣 🌟<br> The Long Cut © 
+      </div>
+   
+      
+                
+          <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+      
+          <script src="script.js"></script>
+      
+      </body>
+  
+  </html>
