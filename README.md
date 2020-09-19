@@ -15,6 +15,7 @@ When I look for a new exploration, I want it to suggest where to go based off my
 Demo: (insert working GIF here upon completion)  
 
 
-Screenshot of app: (place image here of app showing pins for trails etc)  
+Screenshot of app:  
+![image](https://user-images.githubusercontent.com/67118229/93689604-0930aa00-fa85-11ea-88d3-234f885ed95a.png)
 
 Credits: (everything we used for the project)  
