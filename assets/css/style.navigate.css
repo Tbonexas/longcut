@@ -56,19 +56,21 @@ a {
   text-decoration: none;
 }
   
-div.menuBtns {
-  color: white;
-  text-shadow: 1px 1.5px 3px purple;
-  position: fixed;
-  bottom: 60px;
-  text-align: center;
-  margin-bottom: -11px;
-  font-size: 36px;
-  font-family: 'Cinzel', serif;
-  justify-content: space-evenly;
-  display: inline-flex;
-  width: 100%;
-  
+
+=======
+  div.menuBtns {
+    color: white;
+    text-shadow: 1px 1.5px 3px purple;
+    position: fixed;
+    bottom: 60px;
+    text-align: center;
+    margin-bottom: -20px;
+    font-size: 36px;
+    font-family: 'Cinzel', serif;
+    justify-content: space-evenly;
+    display: inline-flex;
+    width: 100%;
+    background-color:  rgba(0, 0, 0, 0.534);
 }
   
 .menuBtns p {
@@ -79,18 +81,19 @@ div.menuBtns {
   font-size: 22px;
 }
   
-#stickyfooter {
-  position: fixed;
-  padding: 10px 10px 0px 10px;
-  bottom: 0;
-  width: 100%;
-  /* height of footer */
-  height: 40px;
-  background-color: gray;
-  text-align: center;
-  font-weight: 900;
-  border-top: 3px solid purple
-}
+  #stickyfooter {
+   position: fixed;
+   padding: 10px 10px 0px 10px;
+   bottom: 0;
+   width: 100%;
+   /* height of footer */
+   height: 40px;
+   background-color: gray;
+   text-align: center;
+   font-weight: 900;
+   border-top: 5px solid purple
+
+  }
   
   @media screen and (max-width: 768px) {
     html {
