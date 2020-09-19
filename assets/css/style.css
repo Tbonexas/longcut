@@ -33,6 +33,56 @@ div.searchCont {
   padding-top: 30px;
 }
 
+#infoContainer {
+  
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  border: 1px transparent orange;
+  margin: auto;
+  height: auto;
+  margin-top: 50px; 
+  position: relative;
+  
+}
+
+p {
+  text-align: center;
+  text-decoration: solid;
+  color: white;
+  font-size: 24px;
+  font-family: 'Cinzel', serif;
+}
+
+#infotron {
+  text-align: center;
+  color: white;
+  text-indent: 1.5rem;  
+}
+
+
+a.enterSite {
+  background-color: darkslategrey;
+  width: auto;
+  height: 60px;
+  padding: 30px;
+  font-size: 32px;
+  font-family: 'Cinzel', serif;
+  border: 1px solid white;
+  text-align: center;
+  text-shadow: 1px 1px 5px black;
+  color: white;
+  text-decoration: none;
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0.9;
+}
+
+
 form {
   background-color:  rgba(0, 0, 0, 0.534);
 }
