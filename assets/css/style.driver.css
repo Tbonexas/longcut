@@ -29,63 +29,38 @@ h1 {
 
 }
 
-div.searchCont {
+div.container {
   padding-top: 30px;
 }
 
-#infoContainer {
-  
-  width: 700px;
-  display: flex;
-  justify-content: center;
-  border: 1px transparent orange;
-  margin: auto;
-  height: auto;
-  margin-top: 50px; 
-  position: relative;
-  
+div.profileCont {
+  color: white;
+  height: 280px;
 }
 
-p {
-  text-align: center;
-  text-decoration: solid;
+div.statsBarCont {
   color: white;
-  font-size: 24px;
-  font-family: 'Cinzel', serif;
+  height: 40px;
 }
 
-#infotron {
-  text-align: center;
+div.reviewsBarCont {
   color: white;
-  text-indent: 1.5rem;  
-  font-size: 32px;
-  font-family: 'Marcellus SC', serif;
-  background-color: darkslategrey;
-  opacity: 0.9;
-  border: 1px solid white;
-  height: 400px;
+  height: 40px;
 }
 
-
-a.enterSite {
-  background-color: darkslategrey;
-  width: auto;
-  height: 60px;
-  padding: 30px;
-  font-size: 32px;
-  font-family: 'Cinzel', serif;
-  border: 1px solid white;
-  text-align: center;
-  text-shadow: 1px 1px 5px black;
+div.storedPicCont {
   color: white;
-  text-decoration: none;
-  margin: 0;
-  position: absolute;
-  top: 75%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  opacity: 0.9;
+  height: 40px;
+}
+
+div.followedUserCont{
+  color: white;
+  height: 40px;
+}
+
+div.settingBarCont {
+  color: white;
+  height: 40px;
 }
 
 
