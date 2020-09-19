@@ -33,6 +33,6 @@ var marker = new google.maps.Marker({
     infoWindow.setPosition(pos);
     infoWindow.setContent(browserHasGeolocation ?
                           'Error: The Geolocation service failed.' :
-                          'Error: Your browser doesn't support geolocation.');
+                          'Error: Your browser does not support geolocation.');
     infoWindow.open(map);
   }
