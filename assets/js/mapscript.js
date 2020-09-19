@@ -26,6 +26,16 @@ infoWindow.setContent('Location Found.');
 infoWindow.open(map);
 map.setContent(pos);
     })
+}else{
+    // if no geolocation is supported on broswer //
+    handleLocationError(false, infoWindow, map.getCenter());
+   }
 }
 
+function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+    infoWindow.setPosition(pos);
+    infoWindow.setContent(browserHasGeolocation ? 
+                            'Error: The Geolocation Service Failed.' :
+                            'Error: Your browser does not support geolocation');
+    infoWindow.open(map);
 }
