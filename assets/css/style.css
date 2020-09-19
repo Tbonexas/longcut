@@ -55,29 +55,31 @@ p {
 }
 
 #infotron {
+  padding: 20px;
   text-align: center;
-  text-shadow: 1px 2px 3px black;
+  text-shadow: 1px 2px 3px purple;
   color: white;
   text-indent: 1.5rem;  
-  font-size: 32px;
+  font-size: 28px;
+  font-weight: 600;
   font-family: 'Marcellus SC', serif;
   background-color: darkslategrey;
   opacity: 0.9;
-  border: 1px solid white;
-  height: 400px;
+  border-radius: 15%;
+  height: auto;
 }
 
 
-a.enterSite {
+a#welcomeBtn {
   background-color: darkslategrey;
   width: auto;
-  height: 60px;
+  height: 30px;
   padding: 30px;
-  font-size: 32px;
+  font-size: 36px;
   font-family: 'Cinzel', serif;
-  border: 1px solid white;
+  border-radius: 25%;
   text-align: center;
-  text-shadow: 1px 1px 5px black;
+  text-shadow: 1px 1px 5px purple;
   color: white;
   text-decoration: none;
   margin: 0;
@@ -89,6 +91,9 @@ a.enterSite {
   opacity: 0.9;
 }
 
+#welcomeBtn:hover{
+  background-color: forestgreen;
+}
 
 form {
   background-color:  rgba(0, 0, 0, 0.534);
