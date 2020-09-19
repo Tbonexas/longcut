@@ -31,7 +31,10 @@ h1 {
 
 div.searchCont {
   padding-top: 30px;
-  
+}
+
+form {
+  background-color:  rgba(0, 0, 0, 0.534);
 }
 
 h4, h5 {
