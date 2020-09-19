@@ -69,6 +69,7 @@ html {
     justify-content: space-evenly;
     display: inline-flex;
     width: 100%;
+    background-color:  rgba(0, 0, 0, 0.534);
   
   }
   
@@ -90,8 +91,8 @@ html {
    background-color: gray;
    text-align: center;
    font-weight: 900;
-   border-top: 3px solid purple;
-   
+   border-top: 5px solid purple
+
   }
   
     @media screen and (max-width: 768px) {
