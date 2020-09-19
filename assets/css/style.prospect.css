@@ -86,11 +86,8 @@ padding: 5px;
 }
 
   @media screen and (max-width: 768px) {
-    html {
-      background-image: none;
-    }  
-    body {
-     background-color: black;
+      body {
+     background-color: #ffffff;
       }
     
       .wrapper {
@@ -106,12 +103,6 @@ padding: 5px;
     
       #sidebar {
         margin-top: 40px;
-      }
-      .pbtn {
-        font-size: 13px;
-      }
-      summary {
-        font-size: 16px;
       }
   }
     
@@ -123,11 +114,8 @@ padding: 5px;
     }
   
   @media screen and (max-width: 400px) {
-    html {
-      background-image: none;
-    }  
-    body {
-     background-color: black;
+      body {
+     background-color: #ffffff;
       }
     
       .wrapper {
@@ -143,22 +131,12 @@ padding: 5px;
     
       #sidebar {
         margin-top: 40px;
-      }
-      .pbtn {
-        font-size: 13px;
-      }
-      summary {
-        font-size: 16px;
       }
   }
     
   @media screen and (max-width: 992px) {
-    html {
-      background-image: none;
-    }
-    
-    body {
-          background-color: black;
+      body {
+          background-color: #ffffff;
         
       }
     
@@ -175,12 +153,6 @@ padding: 5px;
     
       #sidebar {
         margin-top: 40px;
-      }
-      .pbtn {
-        font-size: 13px;
-      }
-      summary {
-        font-size: 16px;
       }
   }
 
@@ -190,38 +162,40 @@ padding: 5px;
   box-sizing: border-box;
 }
 
-.info {
-  border: solid;
-  border-width: 1px;
-  border-color: white;
-  margin: 20px;
-}
-
 .column1 {
-  float: left;
-  width: 33.33%;
+  float: center;
+  margin: auto;
+  margin-top: 10px;
+  width: 1000px;
   padding: 10px;
-  height: 300px;
+  height: 600px;
+  border-radius: 15px;
+  display: none;
+  background-color:rgba(128, 0, 128, 0.65);
 }
 
 .column2 {
   float: left;
-  width: 33.33%;
+  margin: auto;
+  margin-top: 10px;
+  width: 1000px;
   padding: 10px;
-  height: 300px;
+  height: 600px;
+  border-radius: 15px;
+  display: none;
+  background-color:rgba(128, 0, 128, 0.65);
 }
 
 .column3 {
   float: left;
-  width: 33.33%;
+  margin: auto;
+  margin-top: 10px;
+  width: 1000px;
   padding: 10px;
-  height: 300px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+  height: 600px;
+  border-radius: 15px;
+  display: none;
+  background-color:rgba(128, 0, 128, 0.65);
 }
 
 h2 {
@@ -234,20 +208,37 @@ h2 {
   outline: none;
 }
 
-summary {
+button {
   font-weight: bold;
   font-size: 30px;
-  padding-bottom: 20px;
+  font-family: 'Cinzel', serif;
   color: white;
   text-shadow: 1.5px 2.5px 5px purple;
-  padding: -30px;
   outline: none;
+  background: none;
+  border: none;
+}
+
+.myButtons {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  color: white;
+  text-shadow: 1.5px 2.5px 5px #030303;
+  background-color:rgba(128, 0, 128, 0.65);
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-evenly;
+  display: inline-flex;
+  width: 100%;
 }
 
 /* dashed list */
 ul {
   margin: 0px;
   font-size: 18px;
+  line-height: 35px;
   color: white;
   text-shadow: 1.5px 2.5px 5px purple;
   padding: -30px;
