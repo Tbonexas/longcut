@@ -5,7 +5,6 @@ html {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: auto;
-  opacity: 0.99;
   
 }
 body {
@@ -58,6 +57,7 @@ div.menuBtns {
   justify-content: space-evenly;
   display: inline-flex;
   width: 100%;
+  background-color:  rgba(0, 0, 0, 0.534);
 
 }
 
