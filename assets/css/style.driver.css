@@ -29,9 +29,40 @@ h1 {
 
 }
 
-div.searchCont {
+div.container {
   padding-top: 30px;
 }
+
+div.profileCont {
+  color: white;
+  height: 280px;
+}
+
+div.statsBarCont {
+  color: white;
+  height: 40px;
+}
+
+div.reviewsBarCont {
+  color: white;
+  height: 40px;
+}
+
+div.storedPicCont {
+  color: white;
+  height: 40px;
+}
+
+div.followedUserCont{
+  color: white;
+  height: 40px;
+}
+
+div.settingBarCont {
+  color: white;
+  height: 40px;
+}
+
 
 form {
   background-color:  rgba(0, 0, 0, 0.534);
