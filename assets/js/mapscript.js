@@ -1,7 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Global variables // 
 var map, infoWindow;
 =======
+=======
+
+
+>>>>>>> 1b91a7102319418bd67661be91aa7d36f409db81
      var map, infoWindow;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
@@ -9,7 +14,10 @@ var map, infoWindow;
           zoom: 15
         });
         infoWindow = new google.maps.InfoWindow;
+<<<<<<< HEAD
 >>>>>>> ab37a93d65663d03666ee8576214fba92add6e2c
+=======
+>>>>>>> 1b91a7102319418bd67661be91aa7d36f409db81
 
         // Try HTML5 geolocation.
         if (navigator.geolocation) {
@@ -35,6 +43,7 @@ var map, infoWindow;
         }
       }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 // call google maps API //
 function initMap() {
@@ -85,3 +94,5 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
         infoWindow.open(map);
       }
 >>>>>>> ab37a93d65663d03666ee8576214fba92add6e2c
+=======
+>>>>>>> 1b91a7102319418bd67661be91aa7d36f409db81
