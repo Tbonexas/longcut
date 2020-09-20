@@ -29,6 +29,158 @@ h1 {
 
 }
 
+h2 {
+  padding-top: 40px;
+  font-size: 30px;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  color: white;
+  text-shadow: 1.5px 2.5px 5px purple;
+  padding: -30px;
+  outline: none;
+}
+
+.container{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  color: white;
+  text-shadow: 1.5px 2.5px 5px #030303;
+  /* border: 1px solid black; */
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: space-evenly;
+  display: inline-flex;
+  width: 100%;
+}
+
+.info {
+  border: solid;
+  border-width: 1px;
+  border-color: white;
+  margin: 20px;
+  
+}
+
+.row {
+  width: 1240px;
+  display: -webkit-inline-box;
+  margin-top: 12px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* columns */
+
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  margin: auto;
+  margin-top: 10px;
+  width: 1000px;
+  padding: 10px;
+  height: 600px;
+  display: none;
+}
+
+.column2 {
+  margin: auto;
+  margin-top: 10px;
+  width: 1000px;
+  padding: 10px;
+  height: 600px;
+  display: none;
+}
+
+.column3 {
+  margin: auto;
+  margin-top: 10px;
+  width: 1000px;
+  padding: 10px;
+  height: 600px;
+  display: none;
+}
+
+button {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Cinzel', serif;
+  color: white;
+  text-shadow: 1.5px 2.5px 5px purple;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.myButtons {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  color: white;
+  text-shadow: 1.5px 2.5px 5px #030303;
+  background-color:rgba(128, 0, 128, 0.65);
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-evenly;
+  display: inline-flex;
+  width: 100%;
+}
+
+.recordsButton:hover {
+  text-decoration: underline #ffffff double;
+}
+
+.accomplishButton:hover {
+  text-decoration: underline #ffffff double;
+}
+
+.statsButton:hover {
+  text-decoration: underline #ffffff double;
+}
+
+
+p {
+  text-align: center;
+  text-decoration: solid;
+  color: white;
+  font-size: 24px;
+  font-family: 'Cinzel', serif;
+}
+
+a.enterSite {
+  background-color: darkslategrey;
+  width: auto;
+  height: 60px;
+  padding: 30px;
+  font-size: 32px;
+  font-family: 'Cinzel', serif;
+  border: 1px solid white;
+  text-align: center;
+  text-shadow: 1px 1px 5px black;
+  color: white;
+  text-decoration: none;
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0.9;
+}
+
+
+form {
+  background-color:  rgba(0, 0, 0, 0.534);
+}
+
 h4, h5 {
   text-align: center;
     font-weight: bold;
@@ -83,8 +235,12 @@ padding: 5px;
 }
 
 @media screen and (max-width: 768px) {
-    body {
-   background-color: #ffffff;
+  html {
+    background-image: none;
+  }
+  
+  body {
+   background-color: black;
     }
   
     .wrapper {
@@ -100,6 +256,12 @@ padding: 5px;
   
     #sidebar {
       margin-top: 40px;
+    }
+    .pbtn {
+      font-size: 13px;
+    }
+    summary {
+      font-size: 16px;
     }
 }
   
@@ -111,8 +273,12 @@ padding: 5px;
   }
 
 @media screen and (max-width: 400px) {
+  html {
+    background-image: none;
+  }
+  
     body {
-   background-color: #ffffff;
+   background-color: black;
     }
   
     .wrapper {
@@ -129,11 +295,23 @@ padding: 5px;
     #sidebar {
       margin-top: 40px;
     }
+    .pbtn {
+      font-size: 13px;
+    }
+    summary {
+      font-size: 16px;
+    }
+
 }
   
 @media screen and (max-width: 992px) {
+    html {
+      background-image: none;
+    }
+  
+  
     body {
-        background-color: #ffffff;
+        background-color: black;
       
     }
   
@@ -151,40 +329,10 @@ padding: 5px;
     #sidebar {
       margin-top: 40px;
     }
-}
-
-h2 {
-  padding-top: 40px;
-  font-size: 30px;
-  text-align: center;
-  color: white;
-  text-shadow: 1.5px 2.5px 5px purple;
-  padding: -30px;
-  outline: none;
-}
-
-.container{
-  font-size: 30px;
-  text-align: center;
-  font-family: 'Cinzel', serif;
-  color: white;
-  text-shadow: 1.5px 2.5px 5px #030303;
-  /* border: 1px solid black; */
-  margin-top: 10px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  justify-content: space-evenly;
-  display: inline-flex;
-  width: 100%;
-}
-
-
-
-#Search {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.70);
-  text-align: center;
-  font-size: 16px;
-  font-family: 'Cinzel', serif;
-  justify-content: space-evenly;
+    .pbtn {
+      font-size: 13px;
+    }
+    summary {
+      font-size: 16px;
+    }
 }
