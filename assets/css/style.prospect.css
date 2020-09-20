@@ -163,44 +163,51 @@ padding: 5px;
 }
 
 .column1 {
-  float: center;
   margin: auto;
   margin-top: 10px;
   width: 1000px;
   padding: 10px;
   height: 600px;
-  border-radius: 15px;
   display: none;
-  background-color:rgba(128, 0, 128, 0.65);
 }
 
 .column2 {
-  float: left;
   margin: auto;
   margin-top: 10px;
   width: 1000px;
   padding: 10px;
   height: 600px;
-  border-radius: 15px;
   display: none;
-  background-color:rgba(128, 0, 128, 0.65);
 }
 
 .column3 {
-  float: left;
   margin: auto;
   margin-top: 10px;
   width: 1000px;
   padding: 10px;
   height: 600px;
-  border-radius: 15px;
   display: none;
-  background-color:rgba(128, 0, 128, 0.65);
+}
+
+figure {
+  float: left;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: thin white solid;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h2 {
   padding-top: 40px;
   font-size: 30px;
+  font-family: 'Cinzel', serif;
   text-align: center;
   color: white;
   text-shadow: 1.5px 2.5px 5px purple;
@@ -232,6 +239,18 @@ button {
   justify-content: space-evenly;
   display: inline-flex;
   width: 100%;
+}
+
+.favButton:hover {
+  text-decoration: underline #ffffff double;
+}
+
+.routeButton:hover {
+  text-decoration: underline #ffffff double;
+}
+
+.mapButton:hover {
+  text-decoration: underline #ffffff double;
 }
 
 /* dashed list */
