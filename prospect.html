@@ -21,7 +21,7 @@
     
         <title> The Long Cut App </title>
     
-        <script src="assets/js/script.js"></script>
+        <script src="assets/js/prospect.js"></script>
     
     </head>
 
@@ -31,71 +31,123 @@
 
         <h2>Prospect Page  <i class="fas fa-map-signs"></i></h2>
 
-        <div class="info">
-        
-          <div class="row">
-            
-            <div class="column1" style="background-color:rgba(128, 0, 128, 0.65);">
-              
-              <details class="showFavorites">
-                
-                <summary>Favorites</summary>
-                
-                <ul class="dashed">
-                  
-                  <li><a href="index.html">one</a></li>
-                  
-                  <li><a href="index.html">two</a></li>
-                  
-                  <li><a href="index.html">three</a></li>
-                
-                </ul>
-             
-              </details>
-            
-            </div>
+        <div class="myButtons">
 
-            <div class="column2" style="background-color:rgba(128, 0, 128, 0.65);">
-              <details class="showRoutes">
-            
-                <summary>Routes</summary>
-            
-                <ul class="dashed">
-            
-                  <li><a href="index.html">one</a></li>
-            
-                  <li><a href="index.html">two</a></li>
-            
-                  <li><a href="index.html">three</a></li>
-            
-                </ul>
-            
-              </details>
-            
-            </div>
+          <button id="favButton" class ="favButton" onclick="showFavorites()">Favorites</button>
 
-            <div class="column3" style="background-color:rgba(128, 0, 128, 0.65);">
-              <details class="showMaps">
-            
-                <summary>Map</summary>
-            
-                <ul class="dashed">
-            
-                  <li><a href="index.html">one</a></li>
-            
-                  <li><a href="index.html">two</a></li>
-            
-                  <li><a href="index.html">three</a></li>
-            
-                </ul>
-            
-              </details>
-            
-            </div>
-          
-          </div>
-        
+          <button id="routeButton" class ="routeButton" onclick="showRoutes()">Routes</button>
+
+          <button id="mapButton" class ="mapButton" onclick="showMap()">Map</button>
+
         </div>
+            
+            <div class="column1" id="fave">
+              
+                <ul class="dashed">
+                  
+                  <a href="index.html"><figure>
+                    <p><img src='assets/pictures/placeholder1.jpg' width='400' height='200' alt ='placeholder'>
+                      <figcaption>
+                        Highway 1 
+                      </figcaption>
+                  </figure></a>
+            
+                  <a href="index.html"><figure>
+                    <p><img src='assets/pictures/placeholder2.jpg' width='400' height='200' alt ='placeholder'>
+                      <figcaption>
+                        Carbon Canyon
+                      </figcaption>
+                  </figure></a>
+            
+                  <a href="index.html"><figure>
+                    <p><img src='assets/pictures/placeholder2.jpg' width='400' height='200' alt ='placeholder'>
+                      <figcaption>
+                        Angeles Crest Highway
+                      </figcaption>
+                  </figure></a>
+
+                  <a href="index.html"><figure>
+                    <p><img src='assets/pictures/placeholder1.jpg' width='400' height='200' alt ='placeholder'>
+                      <figcaption>
+                        High Desert
+                      </figcaption>
+                  </figure></a>
+                
+                </ul>
+            
+            </div>
+
+            <div class="column2" id="route">
+              
+                <ul class="dashed">
+            
+                  <a href="index.html"><figure>
+                    <p><img src='assets/pictures/placeholder2.jpg' width='400' height='200' alt ='placeholder'>
+                      <figcaption>
+                        Highway 1 
+                      </figcaption>
+                  </figure></a>
+            
+                  <a href="index.html"><figure>
+                    <p><img src='assets/pictures/placeholder1.jpg' width='400' height='200' alt ='placeholder'>
+                      <figcaption>
+                        Carbon Canyon
+                      </figcaption>
+                  </figure></a>
+            
+                  <a href="index.html"><figure>
+                    <p><img src='assets/pictures/placeholder1.jpg' width='400' height='200' alt ='placeholder'>
+                      <figcaption>
+                        Angeles Crest Highway
+                      </figcaption>
+                  </figure></a>
+
+                  <a href="index.html"><figure>
+                    <p><img src='assets/pictures/placeholder2.jpg' width='400' height='200' alt ='placeholder'>
+                      <figcaption>
+                        High Desert
+                      </figcaption>
+                  </figure></a>
+            
+                </ul>
+                        
+            </div>
+
+            <div class="column3" id="map">
+              
+              <ul class="dashed">
+            
+                <a href="index.html"><figure>
+                  <p><img src='assets/pictures/placeholder1.jpg' width='400' height='200' alt ='placeholder'>
+                    <figcaption>
+                      Highway 1 
+                    </figcaption>
+                </figure></a>
+          
+                <a href="index.html"><figure>
+                  <p><img src='assets/pictures/placeholder2.jpg' width='400' height='200' alt ='placeholder'>
+                    <figcaption>
+                      Carbon Canyon
+                    </figcaption>
+                </figure></a>
+          
+                <a href="index.html"><figure>
+                  <p><img src='assets/pictures/placeholder2.jpg' width='400' height='200' alt ='placeholder'>
+                    <figcaption>
+                      Angeles Crest Highway
+                    </figcaption>
+                </figure></a>
+
+                <a href="index.html"><figure>
+                  <p><img src='assets/pictures/placeholder1.jpg' width='400' height='200' alt ='placeholder'>
+                    <figcaption>
+                      High Desert
+                    </figcaption>
+                </figure></a>
+          
+              </ul>
+
+            </div>
         
         <div class = "menuCont">
     
