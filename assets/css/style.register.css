@@ -127,6 +127,43 @@ html {
       summary {
         font-size: 16px;
       }
+  
+      div.menuBtns{
+        width: 375px;
+        margin-bottom: -18px;
+      }
+      button {
+        font-size: 24px;
+      }
+      div#fave.column1{
+        width: 330px;
+        height: 380px;
+        margin-left: none;
+      }
+      .column1{
+        
+        border-radius: 1%;
+        margin: none;
+        padding: none;
+      }
+      figure {
+        width: 330px;
+        height: 380px;
+        margin-left: -5px;
+  
+      }
+      img {
+        width: 280px;
+        
+      }
+      div#route.column2{
+        width: 330px;
+        height: 380px
+      }
+      div#map.column3{
+        width: 330px;
+        height: 380px
+      }
   }
     
   @media only screen and (max-width: 768px) {
@@ -166,6 +203,42 @@ html {
         font-size: 16px;
       }
   
+      div.menuBtns{
+        width: 375px;
+        margin-bottom: -18px;
+      }
+      button {
+        font-size: 24px;
+      }
+      div#fave.column1{
+        width: 330px;
+        height: 380px;
+        margin-left: none;
+      }
+      .column1{
+        
+        border-radius: 1%;
+        margin: none;
+        padding: none;
+      }
+      figure {
+        width: 330px;
+        height: 380px;
+        margin-left: -5px;
+  
+      }
+      img {
+        width: 280px;
+        
+      }
+      div#route.column2{
+        width: 330px;
+        height: 380px
+      }
+      div#map.column3{
+        width: 330px;
+        height: 380px
+      }
   }
     
   @media screen and (max-width: 992px) {
@@ -198,6 +271,43 @@ html {
       }
       summary {
         font-size: 16px;
+      }
+  
+      div.menuBtns{
+        width: 375px;
+        margin-bottom: -18px;
+      }
+      button {
+        font-size: 24px;
+      }
+      div#fave.column1{
+        width: 330px;
+        height: 380px;
+        margin-left: none;
+      }
+      .column1{
+        
+        border-radius: 1%;
+        margin: none;
+        padding: none;
+      }
+      figure {
+        width: 330px;
+        height: 380px;
+        margin-left: -5px;
+  
+      }
+      img {
+        width: 280px;
+        
+      }
+      div#route.column2{
+        width: 330px;
+        height: 380px
+      }
+      div#map.column3{
+        width: 330px;
+        height: 380px
       }
   }
 

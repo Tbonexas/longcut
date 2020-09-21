@@ -71,91 +71,6 @@ padding: 5px;
   font-size: 22px;
 }
 
-
-#stickyfooter {
- position: fixed;
- padding: 10px 10px 33px 10px;
- bottom: 0;
- width: 100%;
- /* height of footer */
- height: 40px;
- background-color: gray;
- text-align: center;
- font-weight: 900;
- border-top: 5px solid purple
-}
-
-  @media screen and (max-width: 768px) {
-      body {
-     background-color: black;
-      }
-    
-      .wrapper {
-        
-        width: 100%;
-        padding: 20px;
-      }
-    
-      #main-content,
-      #sidebar {
-        width: 100%;
-      }
-    
-      #sidebar {
-        margin-top: 40px;
-      }
-  }
-    
-  @media only screen and (max-width: 768px) {
-      /* For mobile phones: */
-      [class*="col-"] {
-        width: 100%;
-      }
-    }
-  
-  @media screen and (max-width: 400px) {
-      body {
-     background-color: black;
-      }
-    
-      .wrapper {
-        
-        width: 100%;
-        padding: 20px;
-      }
-    
-      #main-content,
-      #sidebar {
-        width: 100%;
-      }
-    
-      #sidebar {
-        margin-top: 40px;
-      }
-  }
-    
-  @media screen and (max-width: 992px) {
-      body {
-          background-color: black;
-        
-      }
-    
-      .wrapper {
-        
-        width: 100%;
-        padding: 20px;
-      }
-    
-      #main-content,
-      #sidebar {
-        width: 100%;
-      }
-    
-      #sidebar {
-        margin-top: 40px;
-      }
-  }
-
 /* columns */
 
 * {
@@ -275,3 +190,224 @@ ul.dashed > li:before {
   content: "-";
   text-indent: -5px;
 }
+
+
+#stickyfooter {
+ position: fixed;
+ padding: 10px 10px 33px 10px;
+ bottom: 0;
+ width: 100%;
+ /* height of footer */
+ height: 40px;
+ background-color: gray;
+ text-align: center;
+ font-weight: 900;
+ border-top: 5px solid purple
+}
+
+  @media screen and (max-width: 768px) {
+    html { 
+      background-image:none;
+      }  
+    body {
+     background-color: black;
+      }
+    
+      .wrapper {
+        
+        width: 100%;
+        padding: 20px;
+      }
+    
+      #main-content,
+      #sidebar {
+        width: 100%;
+      }
+    
+      #sidebar {
+        margin-top: 40px;
+      }
+      .pbtn {
+        font-size: 13px;
+      }
+      summary {
+        font-size: 16px;
+      }
+
+      div.menuBtns{
+        width: 375px;
+        margin-bottom: -18px;
+      }
+      button {
+        font-size: 24px;
+      }
+      div#fave.column1{
+        width: 330px;
+        height: 380px;
+        margin-left: none;
+      }
+      .column1{
+        
+        border-radius: 1%;
+        margin: none;
+        padding: none;
+      }
+      figure {
+        width: 330px;
+        height: 380px;
+        margin-left: -5px;
+
+      }
+      img {
+        width: 280px;
+        
+      }
+      div#route.column2{
+        width: 330px;
+        height: 380px
+      }
+      div#map.column3{
+        width: 330px;
+        height: 380px
+      }
+  }
+    
+  @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+      [class*="col-"] {
+        width: 100%;
+      }
+    }
+  
+  @media screen and (max-width: 400px) {
+      body {
+     background-color: black;
+      }
+    
+      .wrapper {
+        
+        width: 100%;
+        padding: 20px;
+      }
+    
+      #main-content,
+      #sidebar {
+        width: 100%;
+      }
+    
+      #sidebar {
+        margin-top: 40px;
+      }
+      .pbtn {
+        font-size: 13px;
+      }
+      summary {
+        font-size: 16px;
+      }
+
+      div.menuBtns{
+        width: 375px;
+        margin-bottom: -18px;
+      }
+      button {
+        font-size: 24px;
+      }
+      div#fave.column1{
+        width: 330px;
+        height: 380px;
+        margin-left: none;
+      }
+      .column1{
+        
+        border-radius: 1%;
+        margin: none;
+        padding: none;
+      }
+      figure {
+        width: 330px;
+        height: 380px;
+        margin-left: -5px;
+
+      }
+      img {
+        width: 280px;
+        
+      }
+      div#route.column2{
+        width: 330px;
+        height: 380px
+      }
+      div#map.column3{
+        width: 330px;
+        height: 380px
+      }
+  }
+    
+  @media screen and (max-width: 992px) {
+      html {
+        background-attachment: none;
+      }
+      body {
+        background-color: black;
+        
+      }
+    
+      .wrapper {
+        
+        width: 100%;
+        padding: 20px;
+      }
+    
+      #main-content,
+      #sidebar {
+        width: 100%;
+      }
+    
+      #sidebar {
+        margin-top: 40px;
+      }
+
+      .pbtn {
+        font-size: 13px;
+      }
+      summary {
+        font-size: 16px;
+      }
+
+      div.menuBtns{
+        width: 375px;
+        margin-bottom: -18px;
+      }
+      button {
+        font-size: 24px;
+      }
+      div#fave.column1{
+        width: 330px;
+        height: 380px;
+        margin-left: none;
+      }
+      .column1{
+        
+        border-radius: 1%;
+        margin: none;
+        padding: none;
+      }
+      figure {
+        width: 330px;
+        height: 380px;
+        margin-left: -5px;
+
+      }
+      img {
+        width: 280px;
+        
+      }
+      div#route.column2{
+        width: 330px;
+        height: 380px
+      }
+      div#map.column3{
+        width: 330px;
+        height: 380px
+      }
+  }
