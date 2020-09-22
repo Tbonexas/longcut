@@ -17,11 +17,11 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@800;900&display=swap" rel="stylesheet">
     
-        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/style.navigate.css" />
     
         <title> The Long Cut App </title>
     
-        <script src="assets/js/script.js"></script>
+        <script src="./assets/js/navi2.js"></script>
     
     </head>
 
@@ -34,21 +34,24 @@
     </header>
     
     <body>
-        
-    <div id="infoContainer">
-    <p id="infotron"> Welcome to the Long Cut: <br> Interested in finding a route that takes you on an adventure? Want to explore things you never knew existed? We have the solution for you!<br><br>
-        With The Long Cut app you can search for new routes; whether you are walking through town, hiking new trails, or want to see a scenic route on your way to the beach - this is the app for you!
-        Search your records, accomplishments, and stats. Keep track where the Long Cut takes you.<br><br> We hope you find the Long Cut with all your adventures!
-    </p> 
+
+        <div id="map"></div>
+        <div id="right-panel">
+          <p>Total Distance: <span id="total"></span></p>
+        </div>
+        <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVA77ZPXAMdLIYDJY9zhMKkS3YBPWeI9A&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <div class="spacer">
+      
     </div>
-    <a id="welcomeBtn" href="prospect.html"  type="button">Start your journey! </a>
-    
 
   <div class = "menuCont">
     
     <div class="menuBtns">      
         
-        <!-- <div id="navBtn"><a href="navigate.html" class="botButtons">
+        <!-- <div id="navBtn"><a href="navigate.html">
             
             <i class="fas fa-search-location"></i>
             
@@ -60,19 +63,19 @@
 
         <br>
     
-        <div id="prospBtn"><a href="prospect.html" class="botButtons">
+        <div id="prospBtn"><a href="prospect.html">
             
             <i class="fas fa-map-signs"></i>
             
             <br>
             
-            <p class="pbtn"> Navigation </p>
+            <p class="pbtn"> Other Trails </p>
 
         </a></div>
 
         <br>
     
-        <div id="recordBtn"><a href="record.html" class="botButtons">
+        <div id="recordBtn"><a href="record.html">
             
             <i class="fas fa-video"></i>
             
@@ -84,7 +87,7 @@
 
         <br>
     
-        <div id="chroniclesBtn"><a href="chronos.html" class="botButtons">
+        <div id="chroniclesBtn"><a href="chronos.html">
             
             <i class="fas fa-history"></i>
             
@@ -96,7 +99,7 @@
 
         <br>
     
-        <div id="driverBtn"><a href="driver.html" class="botButtons">
+        <div id="driverBtn"><a href="driver.html">
             
             <i class="fas fa-car-side"></i>
             
@@ -121,8 +124,8 @@
     
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     
-        <script src="script.js"></script>
-    
+        <script src="./assets/js/navi2.js"></script>
+        
     </body>
 
-</html>
+</html> 
