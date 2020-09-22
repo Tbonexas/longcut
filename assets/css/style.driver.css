@@ -90,7 +90,30 @@ img {
   padding: 15px;
 }
 
+h3 {
+  font-family: 'Cinzel', serif;
+  color: white;
+  padding: 5px;
+  text-shadow: 1px 1.5px 3px black;
+}
 
+.infoBtn {
+  background-color: darkslategray;
+  color: white;
+  text-shadow: 1px 1px 3px purple;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 8px;
+  font-family: 'Cinzel', serif;
+}
+
+.infoBtn:hover {
+  color: white;
+  cursor: pointer;
+  transform: scale(1.2);
+  background-color: forestgreen;
+}
 
 header {
   font-size: 72px;
