@@ -18,8 +18,8 @@ function initMap() {
     computeTotalDistance(directionsRenderer.getDirections());
   });
   displayRoute(
-    "6R62+52 La Cañada Flintridge, California",
-    "GX4C+CG Palmdale, California",
+    "W8F4+V4 Whitewater, California",
+    "QFJ8+X5 Palm Springs, California",
   
     directionsService,
     directionsRenderer
@@ -31,14 +31,14 @@ function displayRoute(origin, destination, service, display) {
     {
       origin: origin,
       destination: destination,
-        waypoints: [
-        {
-          location: "7R43+X6 Glendale, California"
-        },
+        // waypoints: [
+        // {
+        //   location: "7R43+X6 Glendale, California"
+        // },
         // {
         //   location: "CA-2, Palmdale, CA 93550, USA"
         // }
-      ], 
+       
       travelMode: google.maps.TravelMode.DRIVING,
       avoidTolls: true
     },
