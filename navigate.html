@@ -34,61 +34,21 @@
     </header>
     
     <body>
-        <h1 class="text-center"><a href="index.html">The Long Cut </a></h1></strong>
-        <div class="menu-heading"><h2> Navigate <i class="fas fa-search-location"></i> </h2>   </div>
-            <!-- <div id="floating-panel"> Set Your Navigations Down For Your Next Cruise
-                <br>
-                <br>
-             <b>Start: </b>
-             <select id="start">
-                 <option value="riverside, ca">Riverside</option>
-             </select>
-                <b>End: </b>
-                <select id="end">
-                <option value="palm springs, ca">Palm Springs</option>
-                <option value="st louis, mo">St Louis</option>
-                <option value="joplin, mo">Joplin, MO</option>
-                <option value="oklahoma city, ok">Oklahoma City</option>
-                 <option value="amarillo, tx">Amarillo</option>
-                 <option value="gallup, nm">Gallup, NM</option>
-                 <option value="flagstaff, az">Flagstaff, AZ</option>
-                 <option value="winona, az">Winona</option>
-                 <option value="kingman, az">Kingman</option>
-                 <option value="barstow, ca">Barstow</option>
-                 <option value="san bernardino, ca">San Bernardino</option>
-                 <option value="los angeles, ca">Los Angeles</option>
-             </select>
-             </div> -->
-             <div>
-                <b>Start:</b>
-                <input id="start" type="text" placeholder="searchbox">
-                </input>
-                <br />
-                <b>Waypoints:</b> <br />
-                <i>(Ctrl+Click or Cmd+Click for multiple selection)</i> <br />
-                <input id="waypoint" type="text" placeholder="Search Waypoint">
-                <input id="userPoints" readonly>
-                <br />
-                <b>End:</b>
-                <select id="end">
-                  <option value="Vancouver, BC">Vancouver, BC</option>
-                  <option value="Seattle, WA">Seattle, WA</option>
-                  <option value="San Francisco, CA">San Francisco, CA</option>
-                  <option value="Los Angeles, CA">Los Angeles, CA</option>
-                </select>
-                <br />
-                <input type="submit" id="submit" />
-              </div>
-              <div id="directions-panel"></div>
-         
-    
-    <!--Blank div for map to be generated-->
+
         <div id="map"></div>
-          <!-- Calls mapp API to generate into 'map' div-->  
+        <div id="right-panel">
+          <p>Total Distance: <span id="total"></span></p>
+        </div>
         <script
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVA77ZPXAMdLIYDJY9zhMKkS3YBPWeI9A&callback=initAutocomplete&libraries=places&v=weekly"
-          defer
-        ></script>
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVA77ZPXAMdLIYDJY9zhMKkS3YBPWeI9A&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+          
+          
+          
+          
+          
+         
   
 
     <div class="spacer">
@@ -99,7 +59,7 @@
     
     <div class="menuBtns">      
         
-        <div id="navBtn"><a href="navigate.html">
+        <!-- <div id="navBtn"><a href="navigate.html">
             
             <i class="fas fa-search-location"></i>
             
@@ -107,7 +67,7 @@
             
             <p class="pbtn"> Navigate </p>
 
-        </a></div>
+        </a></div> -->
 
         <br>
     
@@ -117,7 +77,7 @@
             
             <br>
             
-            <p class="pbtn"> Prospect </p>
+            <p class="pbtn"> Other Trails </p>
 
         </a></div>
 

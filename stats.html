@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
     
     <head>
@@ -22,7 +22,7 @@
         <title> The Long Cut App </title>
     
         <script src="chronos.js"></script>
-    
+
     </head>
 
     <header>
@@ -36,12 +36,7 @@
     
 
     
-   <div class="myButtons">
 
-       
-        <button class= "acc" type="Accomplishments" onclick="accomplishRedirect()">Accomplishments</button>
-        <button class="rec" type="Records" onclick="recordsRedirect()">Records</button>
-        <button class="sts" type="stats" onclick="statsRedirect()">Stats</button>
         
 
 
@@ -80,7 +75,41 @@
 
     </div>
 
+    <p>Lifetime stats</p>
+<div class="btn-group"  style="width:100%">
+    
+    <button  class="button button5">Distance <i class="fas fa-running"></i></button>
+   
+    <button class="button button4">Recordings <i class="fas fa-microphone"></i></button>
+    
+    <button class="button button3">Moving time <i class="fas fa-stopwatch"></i></button>
 
+   
+</div>
+
+<br>
+
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="stats.js"></script>
+
+
+
+
+<br>
+
+
+    <p>Personal best</p>
+<div class="btn-group" style="width:100%">
+    
+    <button  class="button button5">Distance <i class="fas fa-running"></i></button>
+   
+    <button class="button button5">Recordings <i class="fas fa-microphone"></i></button>
+    
+    <button class="button button5">Moving time <i class="fas fa-stopwatch"></i></button>
+
+   
+</div>
 
 
     <div class = "menuCont">

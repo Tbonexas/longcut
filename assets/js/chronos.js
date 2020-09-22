@@ -1,5 +1,5 @@
 function statsRedirect() {
-    window.location.href = "file:///C:/Users/jamjo/Documents/Project-1/longcut/stats.html";
+    window.location.href = "file:///C:/Users/jamjo/Documents/Project-1/longcut/navigate.htmlgit";
     
     
 

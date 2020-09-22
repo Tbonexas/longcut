@@ -460,10 +460,11 @@ a#welcomeBtn {
 
 .btn-group button:hover {
   background-color: #8b2383;
-  
+ 
 }
 
 .button {
+  align-items: center;
   background-color:darkslategrey;
   border: none;
   color: white;
@@ -473,7 +474,7 @@ a#welcomeBtn {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
- 
+  border-radius: 20%;
 }
 
 .button5 {border-radius: 20%;}
@@ -488,12 +489,36 @@ a#welcomeBtn {
 
 }
 
-.rec:hover{
-  text-decoration: underline #ffffff double;
-
-}
-
 .sts:hover{
   text-decoration: underline #ffffff double;
 
 }
+
+.rec:hover{
+  text-decoration: underline #ffffff double;
+    div.menuBtns{
+      width: 375px;
+      margin-bottom: -23px;
+    }
+    button {
+      font-size: large;
+    }
+    div#records.column1{
+      width: 330px;
+      height: 380px;
+      margin-left: none;
+    }
+    .column1{
+      
+      border-radius: 1%;
+      margin: none;
+      padding: none;
+    }
+    figure {
+      width: 330px;
+      height: 380px;
+      margin-left: -5px;
+
+}
+
+
