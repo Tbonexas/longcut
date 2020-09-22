@@ -28,6 +28,17 @@ header {
   margin-bottom: 0px;
 
 }
+.container {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: thin white solid;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 50px;
+  width: 600px;
+  padding: 15px;
+  height: 600px;
+  text-align: left;
+}
 
 .registerLog {
   float: right;
@@ -276,7 +287,9 @@ header {
           background-color: black;
         
       }
-    
+      .h2 {
+        font-size: large;
+      }
       .wrapper {
         
         width: 100%;
@@ -300,57 +313,35 @@ header {
   
       div.menuBtns{
         width: 375px;
-        margin-bottom: -18px;
+        margin-bottom: -24px;
       }
       button {
         font-size: 24px;
       }
-      div#fave.column1{
+      .container {
         width: 330px;
-        height: 380px;
-        margin-left: none;
+        height: 820px;
+        font-size: medium;
+        margin-top: 10px;
       }
-      .column1{
-        
-        border-radius: 1%;
-        margin: none;
-        padding: none;
-      }
-      figure {
-        width: 330px;
-        height: 380px;
-        margin-left: -5px;
-  
-      }
-      img {
+
+      button.registerBtn {
         width: 280px;
-        
       }
-      div#route.column2{
-        width: 330px;
-        height: 380px
+      .registerBox{
+        width: 310px;
+        height: 780px;
       }
-      div#map.column3{
-        width: 330px;
-        height: 380px
+      label{
+        height: 40px;
       }
-  }
+
 
 * {
     box-sizing: border-box;
 }
 
-.container {
-    background-color: rgba(0, 0, 0, 0.8);
-    border: thin white solid;
-    border-radius: 5px;
-    margin: auto;
-    margin-top: 50px;
-    width: 600px;
-    padding: 15px;
-    height: 600px;
-    text-align: left;
-}
+
 
 .registerBox {
     line-height: 80px;
