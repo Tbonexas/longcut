@@ -479,36 +479,21 @@ a#welcomeBtn {
 .button5 {border-radius: 20%;}
 
 
-    div.menuBtns{
-      width: 375px;
-      margin-bottom: -18px;
-    }
-    button {
-      font-size: large;
-    }
-    div#records.column1{
-      width: 330px;
-      height: 380px;
-      margin-left: none;
-    }
-    .column1{
-      
-      border-radius: 1%;
-      margin: none;
-      padding: none;
-    }
-    figure {
-      width: 330px;
-      height: 380px;
-      margin-left: -5px;
+.table{
+  align-items: center;
+}
 
-    }
-    div#accomplishments.column2{
-      width: 330px;
-      height: 380px
-    }
-    div#stats.column3{
-      width: 330px;
-      height: 380px
-    }
+.acc:hover{
+  text-decoration: underline #ffffff double;
+
+}
+
+.rec:hover{
+  text-decoration: underline #ffffff double;
+
+}
+
+.sts:hover{
+  text-decoration: underline #ffffff double;
+
 }
