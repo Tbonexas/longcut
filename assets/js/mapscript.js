@@ -1,75 +1,66 @@
-//  var map, infoWindow;
-    //   function initMap() {
-    //     map = new google.maps.Map(document.getElementById('map'), {
-    //       center: {lat: -34.397, lng: 150.644},
-    //       zoom: 15
-    //     });
-    //     infoWindow = new google.maps.InfoWindow;
+function initAutocomplete() {
+  const map = new google.maps.Map(document.getElementById("map"), {
+    center: {
+      lat: 33.9737,
+      lng: -117.328
+    },
+    zoom: 13,
+    mapTypeId: "roadmap"
+  }); // Create the search box and link it to the UI element.
 
-    //     // Try HTML5 geolocation.
-    //     if (navigator.geolocation) {
-    //       navigator.geolocation.getCurrentPosition(function(position) {
-    //         var pos = {
-    //           lat: position.coords.latitude,
-    //           lng: position.coords.longitude
-    //         };
-    // var marker = new google.maps.Marker({
-    //   position: pos,
-    //   map: map,
-    //   title: 'Hello World!'
-    // });
+  const input = document.getElementById("start");
+  const searchBox = new google.maps.places.SearchBox(input);
   
-    //         infoWindow.open(map);
-    //         map.setCenter(pos);
-    //       }, function() {
-    //         handleLocationError(true, infoWindow, map.getCenter());
-    //       });
-    //     } else {
-    //       // Browser doesn't support Geolocation
-    //       handleLocationError(false, infoWindow, map.getCenter());
-    //     }
-    //   }
 
-    //   function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-    //     infoWindow.setPosition(pos);
-    //     infoWindow.setContent(browserHasGeolocation ?
-    //                           'Error: The Geolocation service failed.' :
-    //                           'Error: Your browser doesn\'t support geolocation.');
-    //     infoWindow.open(map);
-    //   }
-    function initMap() {
-        const directionsService = new google.maps.DirectionsService();
-        const directionsRenderer = new google.maps.DirectionsRenderer();
-        const map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 7,
-          center: { lat: 41.85, lng: -87.65 }
-        });
-        directionsRenderer.setMap(map);
-      
-        const onChangeHandler = function() {
-          calculateAndDisplayRoute(directionsService, directionsRenderer);
-        };
-        document.getElementById("start").addEventListener("change", onChangeHandler);
-        document.getElementById("end").addEventListener("change", onChangeHandler);
+  map.addListener("bounds_changed", () => {
+    searchBox.setBounds(map.getBounds());
+  });
+  let markers = []; // Listen for the event fired when the user selects a prediction and retrieve
+  // more details for that place.
+
+  searchBox.addListener("places_changed", () => {
+    const places = searchBox.getPlaces();
+
+    if (places.length == 0) {
+      return;
+    } // Clear out the old markers.
+
+    markers.forEach(marker => {
+      marker.setMap(null);
+    });
+    markers = []; // For each place, get the icon, name and location.
+
+    const bounds = new google.maps.LatLngBounds();
+    places.forEach(place => {
+      if (!place.geometry) {
+        console.log("Returned place contains no geometry");
+        return;
       }
-      
-      function calculateAndDisplayRoute(directionsService, directionsRenderer) {
-        directionsService.route(
-          {
-            origin: {
-              query: document.getElementById("start").value
-            },
-            destination: {
-              query: document.getElementById("end").value
-            },
-            travelMode: google.maps.TravelMode.DRIVING
-          },
-          (response, status) => {
-            if (status === "OK") {
-              directionsRenderer.setDirections(response);
-            } else {
-              window.alert("Directions request failed due to " + status);
-            }
-          }
-        );
+
+      const icon = {
+        url: place.icon,
+        size: new google.maps.Size(71, 71),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(17, 34),
+        scaledSize: new google.maps.Size(25, 25)
+      }; // Create a marker for each place.
+
+      markers.push(
+        new google.maps.Marker({
+          map,
+          icon,
+          title: place.name,
+          position: place.geometry.location
+        })
+      );
+
+      if (place.geometry.viewport) {
+        // Only geocodes have viewport.
+        bounds.union(place.geometry.viewport);
+      } else {
+        bounds.extend(place.geometry.location);
       }
+    });
+    map.fitBounds(bounds);
+  });
+}

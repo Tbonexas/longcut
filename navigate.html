@@ -37,6 +37,7 @@
         
         <div class="menu-heading"><h2> Navigate <i class="fas fa-search-location"></i> </h2>
             <div id="floating-panel"> Set Your Navigations Down For Your Next Cruise
+
                 <br>
                 <br>
              <b>Start: </b>
@@ -58,14 +59,37 @@
                  <option value="san bernardino, ca">San Bernardino</option>
                  <option value="los angeles, ca">Los Angeles</option>
              </select>
-             </div>
-        </div>    
+             </div> -->
+             <div>
+                <b>Start:</b>
+                <input id="start" type="text" placeholder="Enter Location">
+                </input>
+                <br />
+                <b>Waypoints:</b> <br />
+                <i>(Ctrl+Click or Cmd+Click for multiple selection)</i> <br />
+                <input id="waypoint" type="text" placeholder="Search Waypoint">
+                <input id="userPoints" readonly>
+                <br />
+                <b>End:</b>
+                <select id="end">
+                  <option value="Vancouver, BC">Vancouver, BC</option>
+                  <option value="Seattle, WA">Seattle, WA</option>
+                  <option value="San Francisco, CA">San Francisco, CA</option>
+                  <option value="Los Angeles, CA">Los Angeles, CA</option>
+                </select>
+                <br />
+                <input type="submit" id="submit" />
+              </div>
+              <div id="directions-panel"></div>
+         
+    
     <!--Blank div for map to be generated-->
         <div id="map"></div>
           <!-- Calls mapp API to generate into 'map' div-->  
-        <script async defer 
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVA77ZPXAMdLIYDJY9zhMKkS3YBPWeI9A&callback=initMap">
-        </script>
+        <script
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVA77ZPXAMdLIYDJY9zhMKkS3YBPWeI9A&callback=initAutocomplete&libraries=places&v=weekly"
+          defer
+        ></script>
   
 
     <div class="spacer">
