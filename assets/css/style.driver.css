@@ -413,7 +413,7 @@ padding: 5px;
 
     div.menuBtns{
       width: 375px;
-      margin-bottom: -18px;
+      margin-bottom: -6px;
     }
     button {
       font-size: 24px;
@@ -436,8 +436,9 @@ padding: 5px;
 
     }
     img {
-      width: 280px;
-      
+      width: 200px;
+      height: 200px;
+      margin-right: 160px;
     }
     div#route.column2{
       width: 330px;
@@ -447,4 +448,13 @@ padding: 5px;
       width: 330px;
       height: 380px
     }
+    .profileBody {
+      margin-left: 6%;
+      width: 330px;
+      height: 500px;
+     }
+      .i.fa.fa-user {
+        margin-right: 280px;
+      }
+    
 }
