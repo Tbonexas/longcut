@@ -17,11 +17,11 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@800;900&display=swap" rel="stylesheet">
     
-        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/style.navigate.css" />
     
         <title> The Long Cut App </title>
     
-        <script src="assets/js/script.js"></script>
+        <script src="./assets/js/navi3.js"></script>
     
     </head>
 
@@ -35,118 +35,89 @@
     
     <body>
 
-    <div class="topRecordCont">
+        <div id="map"></div>
+        <div id="right-panel">
+          <p>Total Distance: <span id="total"></span></p>
+        </div>
+        <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVA77ZPXAMdLIYDJY9zhMKkS3YBPWeI9A&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <div class="spacer">
+      
+    </div>
 
-        <h2> Record <i class="fas fa-video"></i> </h2>
+  <div class = "menuCont">
+    
+    <div class="menuBtns">      
+        
+     
 
         <br>
+    
+        <div id="prospBtn"><a href="prospect.html">
             
-            <div class="liveStatsCont">
+            <i class="fas fa-map-signs"></i>
+            
+            <br>
+            
+            <p class="pbtn"> Other Trails </p>
 
-                <div class="liveMilesCont">
+        </a></div>
 
-                    <div class="liveMilesNumber">
+        <br>
+    
+        <div id="recordBtn"><a href="record.html">
+            
+            <i class="fas fa-video"></i>
+            
+            <br>
+            
+            <p class="pbtn"> Record </p>
+            
+        </a></div>
 
-                        <br>
+        <br>
+    
+        <div id="chroniclesBtn"><a href="chronos.html">
+            
+            <i class="fas fa-history"></i>
+            
+            <br>
+            
+            <p class="pbtn"> Chronicles </p>
+            
+        </a></div>
 
-                        <p>miles</p>
-
-                    </div>
-
-
-
-                </div>
-
-
-            </div>
-
-
-
-    </div>        
-
-    <hr>
-
-    <div class="recordMapCont">
-
-            //map with your location as starting point, to record your journey till you stop recording
-
+        <br>
+    
+        <div id="driverBtn"><a href="driver.html">
+            
+            <i class="fas fa-car-side"></i>
+            
+            <br>
+            
+            <p class="pbtn"> Driver </p>
+            
+        </a></div>
+    
     </div>
-    
-    <div class="container">
-    
-    </div>
 
-
-
-    <div class = "menuCont">
-    
-        <div class="menuBtns">      
-        
-      
-            <br>
-    
-            <div id="prospBtn"><a href="prospect.html">
-            
-                <i class="fas fa-map-signs"></i>
-            
-            <br>
-            
-                <p class="pbtn"> Navigation </p>
-
-            </a></div>
-
-            <br>
-    
-            <div id="recordBtn"><a href="record.html">
-            
-                <i class="fas fa-video"></i>
-            
-                <br>
-            
-                <p class="pbtn"> Record </p>
-            
-            </a></div>
-
-            <br>
-    
-            <div id="chroniclesBtn"><a href="chronos.html">
-            
-                <i class="fas fa-history"></i>
-            
-                <br>
-            
-                <p class="pbtn"> Chronicles </p>
-            
-            </a></div>
-
-            <br>
-    
-            <div id="driverBtn"><a href="driver.html">
-            
-                <i class="fas fa-car-side"></i>
-            
-                <br>    
-            
-                <p class="pbtn"> Driver </p>
-            
-            </a></div>
-    
-        </div>
-
-    </div>
+  </div>
 
     <div id="stickyfooter">
        
         Routes Constellated by the Stars 🛣 🌟<br> The Long Cut © 
-   
     </div>
+ 
+    
               
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     
-        <script src="script.js"></script>
-    
+        <script src="./assets/js/navi3.js"></script>
+        
     </body>
 
-</html>
+</html> 
