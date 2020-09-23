@@ -1,10 +1,13 @@
+"use strict";
+
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 50,
     center: {
       lat: 33.9737,
       lng: -117.328
-    } //California
+    },
+    backgroundColor: '',
   });
   const directionsService = new google.maps.DirectionsService();
   const directionsRenderer = new google.maps.DirectionsRenderer({
@@ -16,8 +19,9 @@ function initMap() {
     computeTotalDistance(directionsRenderer.getDirections());
   });
   displayRoute(
-    "33.980841, -117.741258",
-    "33.924186, -117.847342",
+    "38.92515, -120.06563",
+    "38.905912, -120.098985",
+  
     directionsService,
     directionsRenderer
   );
@@ -28,8 +32,7 @@ function displayRoute(origin, destination, service, display) {
     {
       origin: origin,
       destination: destination,
-      travelMode: google.maps.TravelMode.DRIVING,
-      avoidTolls: true
+      travelMode: google.maps.TravelMode.WALKING,
     },
     (result, status) => {
       if (status === "OK") {

@@ -6,55 +6,30 @@ function myFunction() {
       x.style.display = "block";
     }
 }
-function showFavorites() {
-    var favDiv = document.getElementById("fave");
-    var routeDiv = document.getElementById("route");
-    var mapDiv = document.getElementById("map");
-    var favButton = document.getElementById("favButton");
-    var routeButton = document.getElementById("routeButton");
-    var mapButton = document.getElementById("mapButton");
+function showDrive() {
+    var driveDiv = document.getElementById("drive");
+    var hikeDiv = document.getElementById("hike");
+    var driveButton = document.getElementById("driveButton");
+    var hikeButton = document.getElementById("hikeButton");
 
-    favDiv.style.display = 'block';
-    favButton.style.textDecoration = 'underline';
-    favButton.style.textDecorationColor = "#ffffff";
-    favButton.style.textDecorationStyle = "double";
-    routeDiv.style.display = 'none';
-    routeButton.style.textDecoration = 'none';
-    mapDiv.style.display = 'none';
-    mapButton.style.textDecoration = 'none';
+    driveDiv.style.display = 'block';
+    driveButton.style.textDecoration = 'underline';
+    driveButton.style.textDecorationColor = "#ffffff";
+    driveButton.style.textDecorationStyle = "double";
+    hikeDiv.style.display = 'none';
+    hikeButton.style.textDecoration = 'none';
 }
 
-function showRoutes() {
-    var favDiv = document.getElementById("fave");
-    var routeDiv = document.getElementById("route");
-    var mapDiv = document.getElementById("map");
-    var favButton = document.getElementById("favButton");
-    var routeButton = document.getElementById("routeButton");
-    var mapButton = document.getElementById("mapButton");
+function showHike() {
+    var driveDiv = document.getElementById("drive");
+    var hikeDiv = document.getElementById("hike");
+    var driveButton = document.getElementById("driveButton");
+    var hikeButton = document.getElementById("hikeButton");
 
-    routeDiv.style.display = 'block';
-    routeButton.style.textDecoration = 'underline';
-    routeButton.style.textDecorationColor = "#ffffff";
-    routeButton.style.textDecorationStyle = "double";
-    favDiv.style.display = 'none';
-    favButton.style.textDecoration = 'none';
-    mapDiv.style.display = 'none';
-    mapButton.style.textDecoration = 'none';
-}
-
-function showMap() {
-    var favDiv = document.getElementById("fave");
-    var routeDiv = document.getElementById("route");
-    var mapDiv = document.getElementById("map");
-    var routeButton = document.getElementById("routeButton");
-    var mapButton = document.getElementById("mapButton");
-
-    mapDiv.style.display = 'block';
-    mapButton.style.textDecoration = 'underline';
-    mapButton.style.textDecorationColor = "#ffffff";
-    mapButton.style.textDecorationStyle = "double";
-    favDiv.style.display = 'none';
-    favButton.style.textDecoration = 'none';
-    routeDiv.style.display = 'none';
-    routeButton.style.textDecoration = 'none';
+    hikeDiv.style.display = 'block';
+    hikeButton.style.textDecoration = 'underline';
+    hikeButton.style.textDecorationColor = "#ffffff";
+    hikeButton.style.textDecorationStyle = "double";
+    driveDiv.style.display = 'none';
+    driveButton.style.textDecoration = 'none';
 }
