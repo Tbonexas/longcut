@@ -17,7 +17,7 @@ Live Page: [Long Cut App Live](https://tbonexas.github.io/longcut
 
 
 Screenshot of app:  
-![image](https://user-images.githubusercontent.com/67118229/94054097-063cfe80-fd90-11ea-9e83-c67d180b892b.png)  
+![image](https://user-images.githubusercontent.com/67118229/94077439-c63b4300-fdb2-11ea-8af7-dd2afdf909c5.png) 
 ![image](https://user-images.githubusercontent.com/67118229/94061469-4903d400-fd9a-11ea-8c34-65c5ed4d5f0e.png)  
 ![image](https://user-images.githubusercontent.com/67118229/94061515-58831d00-fd9a-11ea-9f16-5be9b66a10c7.png)  
 ![image](https://user-images.githubusercontent.com/67118229/94061583-6d5fb080-fd9a-11ea-90e2-1de0b60ff027.png)  
