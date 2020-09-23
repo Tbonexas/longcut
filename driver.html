@@ -21,7 +21,7 @@
     
         <title> The Long Cut App </title>
     
-        <script src="assets/js/script.js"></script>
+        <script src="assets/js/driver.js"></script>
     
     </head>
 
@@ -60,16 +60,16 @@
                     <div class="profile tabShow">
                         <img src="https://lippianfamilydentistry.net/wp-content/uploads/2015/11/user-default.png" alt="profile pic" onclick="window.open(this.src)">
                         <h2>My Profile</h2>
-                        <h3>Name :</h3>
-                        <input type="text" placeholder="Insert Name">
+                        <h3 id="userName">Name :</h3>
+                        <input id="userName" type= "text" placeholder="Insert Name">
                         
-                        <h3>Routes Completed :</h3>
-                        <input type="text" placeholder="example 5 routes">
-                        <h3>Location :</h3>
-                        <input type="text" placeholder="Where are you from?">
-                        <h3>Email Address :</h3>
-                        <input type="text" placeholder="example@example.com">
-                        
+                        <h3 id="routes">Routes Completed :</h3>
+                        <input id="routeNum" type="text" placeholder="example 5 routes">
+                        <h3 id="currentLocation">Location :</h3>
+                        <input id="location" type="text" placeholder="Where are you from?">
+                        <h3 id="currentEmail">Email Address :</h3>
+                        <input id="email" type="text" placeholder="example@example.com">
+                        <div id="msg"></div>
                         <button class="infoBtn">Save Profile</button>
                     </div>
                     
@@ -154,9 +154,8 @@
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    
-        <script src="script.js"></script>
-    
+
+        <script src="assets/js/driver.js"></script>
     </body>
 
 </html>
