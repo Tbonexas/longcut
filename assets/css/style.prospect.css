@@ -19,6 +19,16 @@ body {
 
 }
 
+#gif1 {
+  margin-left: 20%;
+  padding: 20px;
+}
+
+#gif {
+  margin-left: 22%;
+  padding: 20px;
+}
+
 header {
   font-size: 72px;
   text-align: center;
@@ -230,7 +240,7 @@ ul.dashed > li:before {
 div.menuBtns {
   color: white;
   position: fixed;
-  bottom: 7%;
+  bottom: 8%;
   text-align: center;
   margin-bottom: -28px;
   font-size: 36px;
@@ -281,7 +291,16 @@ padding: 5px;
       #sidebar {
         width: 100%;
       }
-    
+      #gif1 {
+        position: relative;
+        margin-left: -130px;
+      }
+      
+      #gif {
+        position: relative;
+        margin-left: -130px;
+       
+      }
       #sidebar {
         margin-top: 40px;
       }
@@ -370,6 +389,15 @@ padding: 5px;
         width: 330px;
         height: 380px;
         margin-left: none;
+      }
+      #gif1 {
+        margin-left: 20%;
+        padding: 20px;
+      }
+      
+      #gif {
+        margin-left: -50px;
+        
       }
       .column1{
         
