@@ -19,6 +19,16 @@ body {
 
 }
 
+#gif1 {
+  margin-left: 20%;
+  padding: 20px;
+}
+
+#gif {
+  margin-left: 22%;
+  padding: 20px;
+}
+
 header {
   font-size: 72px;
   text-align: center;
