@@ -1,3 +1,4 @@
+
 // var nameInput = document.querySelector("#userName");
 // var routeNumber = document.querySelector("#routeNum");
 // var location = document.querySelector("#location");
@@ -8,6 +9,7 @@
 // var inputRoute= document.querySelector("#routes");
 // var  currentLocation= document.querySelector("#currentLocation");
 // var currentEmail = document.querySelector("#currentEmail");
+
 
 // function displayMessage(type, message) {
 //   msgDiv.textContent = message;
