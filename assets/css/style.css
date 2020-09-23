@@ -57,18 +57,6 @@ div.searchCont {
   padding-top: 30px;
 }
 
-#infoContainer {
-  
-  width: 700px;
-  display: flex;
-  justify-content: center;
-  border: 1px transparent orange;
-  margin: auto;
-  height: auto;
-  margin-top: 50px; 
-  position: relative;
-  
-}
 
 p {
   text-align: center;
@@ -78,20 +66,6 @@ p {
   font-family: 'Cinzel', serif;
 }
 
-#infotron {
-  padding: 20px;
-  text-align: center;
-  text-shadow: 1px 2px 3px purple;
-  color: white;
-  text-indent: 1.5rem;  
-  font-size: 28px;
-  font-weight: 600;
-  font-family: 'Marcellus SC', serif;
-  background-color: rgba(0, 0, 0, 0.9);
-  opacity: 0.9;
-  border-radius: 15%;
-  height: auto;
-}
 
 
 a#welcomeBtn {
@@ -108,7 +82,7 @@ a#welcomeBtn {
   text-decoration: none;
   margin: 0;
   position: absolute;
-  top: 75%;
+  top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
