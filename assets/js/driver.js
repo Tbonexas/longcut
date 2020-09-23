@@ -1,3 +1,4 @@
+// Global variables for Profile page // 
 var nameInput = document.querySelector("#userName");
 var routeNumber = document.querySelector("#routeNum");
 var loc = document.querySelector("#location");
@@ -13,7 +14,7 @@ function displayMessage(type, message) {
   msgDiv.textContent = message;
   msgDiv.setAttribute("class", type);
 }
-
+// on click event for submit button to save profile information // 
 signUpButton.addEventListener("click", function(event) {
   event.preventDefault();
   
@@ -51,7 +52,7 @@ signUpButton.addEventListener("click", function(event) {
     insertText();
   }
 });
-
+// generate save info to profile page // 
 function insertText(){
     var lastUser = JSON.parse(localStorage.getItem("user"));
     userName.textContent = lastUser.name;
