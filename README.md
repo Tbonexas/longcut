@@ -34,6 +34,5 @@ Google Maps API
 FontAwesome  
 Google Fonts  
 HTML 5  
-Giphy API (iframe)  
-
+Giphy API
 
