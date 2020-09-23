@@ -16,6 +16,11 @@ body {
 
 }
 
+#gifHiking {
+  justify-content: center;
+  display: inline-block;
+}
+
 header {
   font-size: 72px;
   text-align: center;
