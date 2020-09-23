@@ -1,3 +1,4 @@
+// generate drop down from links on prospect page //
 function myFunction() {
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
@@ -6,6 +7,7 @@ function myFunction() {
       x.style.display = "block";
     }
 }
+// Drop down menu for driving trails //
 function showDrive() {
     var driveDiv = document.getElementById("drive");
     var hikeDiv = document.getElementById("hike");
@@ -19,13 +21,13 @@ function showDrive() {
     hikeDiv.style.display = 'none';
     hikeButton.style.textDecoration = 'none';
 }
-
+// drop down menu for hiking trails //
 function showHike() {
     var driveDiv = document.getElementById("drive");
     var hikeDiv = document.getElementById("hike");
     var driveButton = document.getElementById("driveButton");
     var hikeButton = document.getElementById("hikeButton");
-
+// style of drop down menu // 
     hikeDiv.style.display = 'block';
     hikeButton.style.textDecoration = 'underline';
     hikeButton.style.textDecorationColor = "#ffffff";
