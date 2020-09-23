@@ -41,11 +41,22 @@ signUpButton.addEventListener("click", function(event) {
     localStorage.setItem("user", JSON.stringify(user));
     
     // get most recent submission
+    function insertText(){
     var lastUser = JSON.parse(localStorage.getItem("user"));
     userName.textContent = lastUser.name;
     inputRoute.textContent ="Routes Competed: " + lastUser.route;
     currentLocation.textContent = "Location: " + lastUser.locate;
     currentEmail.textContent = "Email Address: " + lastUser.email;
-    
+    }
+    insertText();
   }
 });
+
+function insertText(){
+    var lastUser = JSON.parse(localStorage.getItem("user"));
+    userName.textContent = lastUser.name;
+    inputRoute.textContent ="Routes Competed: " + lastUser.route;
+    currentLocation.textContent = "Location: " + lastUser.locate;
+    currentEmail.textContent = "Email Address: " + lastUser.email;
+    }
+    insertText();
