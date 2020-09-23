@@ -6,7 +6,8 @@ function initMap() {
     center: {
       lat: 33.9737,
       lng: -117.328
-    } //California
+    },
+    backgroundColor: '',
   });
   const directionsService = new google.maps.DirectionsService();
   const directionsRenderer = new google.maps.DirectionsRenderer({
@@ -18,8 +19,9 @@ function initMap() {
     computeTotalDistance(directionsRenderer.getDirections());
   });
   displayRoute(
-    "W5F6+FP Brea, California",
-    "X55V+8R Brea, California",
+    "32.97817, -116.97242",
+    "32.970767, -116.955431",
+  
     directionsService,
     directionsRenderer
   );
@@ -30,16 +32,7 @@ function displayRoute(origin, destination, service, display) {
     {
       origin: origin,
       destination: destination,
-   /*    waypoints: [
-        {
-          location: "Fawnskin, CA"
-        },
-        {
-          location: "Boulder Bay, CA"
-        }
-      ], */
-      travelMode: google.maps.TravelMode.DRIVING,
-      avoidTolls: true
+      travelMode: google.maps.TravelMode.WALKING,
     },
     (result, status) => {
       if (status === "OK") {

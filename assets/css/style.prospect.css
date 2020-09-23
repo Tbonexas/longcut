@@ -4,7 +4,7 @@
 html {
   height: 100%;
   margin: 0;
-  background-image: url(https://cdn.hipwallpaper.com/i/92/33/q2LRKO.jpg);
+  background-image: url("background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: auto;
@@ -24,7 +24,6 @@ header {
   text-align: center;
   font-family: 'Cinzel', serif;
   color: white;
-  text-shadow: 1.5px 2.5px 5px purple;
   border-bottom: 10px solid black;
   background-color: darkslategrey;
   padding: 0px;
@@ -112,7 +111,6 @@ h4, h5 {
 
 a {
   color: white;
-  text-shadow: 1px 1.5px 3px purple;
   text-decoration: none;
 }
 
@@ -127,7 +125,8 @@ a {
   margin-top: 10px;
   width: 1000px;
   padding: 10px;
-  height: 600px;
+  height: auto;
+  padding-bottom: 200px;
   display: none;
 }
 
@@ -136,16 +135,8 @@ a {
   margin-top: 10px;
   width: 1000px;
   padding: 10px;
-  height: 600px;
-  display: none;
-}
-
-.column3 {
-  margin: auto;
-  margin-top: 10px;
-  width: 1000px;
-  padding: 10px;
-  height: 600px;
+  height: auto;
+  padding-bottom: 200px;
   display: none;
 }
 
@@ -166,13 +157,15 @@ figure {
 
 h2 {
   padding-top: 40px;
-  font-size: 30px;
+  padding-bottom: 15px;
+  margin-bottom: -10px;
+  font-size: 40px;
   font-family: 'Cinzel', serif;
   text-align: center;
   color: white;
-  text-shadow: 1.5px 2.5px 5px purple;
   padding: -30px;
   outline: none;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .linkBtn {
@@ -184,7 +177,6 @@ button {
   font-size: 30px;
   font-family: 'Cinzel', serif;
   color: white;
-  text-shadow: 1.5px 2.5px 5px purple;
   outline: none;
   background: none;
   border: none;
@@ -196,7 +188,7 @@ button {
   font-family: 'Cinzel', serif;
   color: white;
   text-shadow: 1.5px 2.5px 5px #030303;
-  background-color:rgba(128, 0, 128, 0.65);
+  background-color:rgb(47, 79, 79, 0.85);
   margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -205,15 +197,11 @@ button {
   width: 100%;
 }
 
-.favButton:hover {
+.driveButton:hover {
   text-decoration: underline #ffffff double;
 }
 
-.routeButton:hover {
-  text-decoration: underline #ffffff double;
-}
-
-.mapButton:hover {
+.hikeButton:hover {
   text-decoration: underline #ffffff double;
 }
 
@@ -223,7 +211,6 @@ ul {
   font-size: 18px;
   line-height: 35px;
   color: white;
-  text-shadow: 1.5px 2.5px 5px purple;
   padding: -30px;
 }
 
@@ -242,7 +229,6 @@ ul.dashed > li:before {
 
 div.menuBtns {
   color: white;
-  text-shadow: 1px 1.5px 3px purple;
   position: fixed;
   bottom: 7%;
   text-align: center;
@@ -257,27 +243,25 @@ div.menuBtns {
 }
 
 .menuBtns p {
-padding: 3px;
+padding: 5px;
 }
 
 .pbtn {
   font-size: 22px;
 }
 
-
-
 #stickyfooter {
- position: fixed;
- /* padding: 10px 10px 0px 10px; */
- bottom: 0;
- width: 100%;
- height: 40px;
- background-color: gray;
- text-align: center;
- font-weight: 900;
- border-top: 5px solid purple;
-
-}
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* height of footer */
+  height: 40px;
+  background-color: gray;
+  text-align: center;
+  font-weight: 900;
+  border-top: 5px solid darkslategray
+ }
 
   @media screen and (max-width: 768px) {
     html { 
@@ -315,7 +299,7 @@ padding: 3px;
       button {
         font-size: 24px;
       }
-      div#fave.column1{
+      div#drive.column1{
         width: 330px;
         height: 380px;
         margin-left: none;
@@ -336,11 +320,7 @@ padding: 3px;
         width: 280px;
         
       }
-      div#route.column2{
-        width: 330px;
-        height: 380px
-      }
-      div#map.column3{
+      div#hike.column2{
         width: 330px;
         height: 380px
       }
@@ -386,7 +366,7 @@ padding: 3px;
       button {
         font-size: 24px;
       }
-      div#fave.column1{
+      div#drive.column1{
         width: 330px;
         height: 380px;
         margin-left: none;
@@ -395,6 +375,7 @@ padding: 3px;
         
         border-radius: 1%;
         margin: none;
+        margin-bottom: 2000px;
         padding: none;
       }
       figure {
@@ -407,13 +388,10 @@ padding: 3px;
         width: 280px;
         
       }
-      div#route.column2{
+      div#hike.column2{
         width: 330px;
-        height: 380px
-      }
-      div#map.column3{
-        width: 330px;
-        height: 380px
+        height: 380px;
+        margin-bottom: 1700px;
       }
   }
     
@@ -455,7 +433,7 @@ padding: 3px;
       button {
         font-size: 24px;
       }
-      div#fave.column1{
+      div#drive.column1{
         width: 330px;
         height: 380px;
         margin-left: none;
@@ -476,11 +454,7 @@ padding: 3px;
         width: 280px;
         
       }
-      div#route.column2{
-        width: 330px;
-        height: 380px
-      }
-      div#map.column3{
+      div#hike.column2{
         width: 330px;
         height: 380px
       }

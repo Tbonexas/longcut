@@ -1,3 +1,5 @@
+"use strict";
+
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 50,
@@ -16,8 +18,8 @@ function initMap() {
     computeTotalDistance(directionsRenderer.getDirections());
   });
   displayRoute(
-    "33.980841, -117.741258",
-    "33.924186, -117.847342",
+    "36.071280, -120.474974",
+    "35.900135, -120.432838",
     directionsService,
     directionsRenderer
   );
