@@ -20,7 +20,7 @@ body {
   text-align: center;
   justify-content: center;
   margin-top: 8%;
-  margin-left: 36%;
+  margin-left: 34%;
   display: flow-root;
   background: linear-gradient(to right, darkslategrey, purple);
   overflow-x: hidden;
@@ -30,16 +30,7 @@ body {
  box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
 }
 
-.leftSide {
-  float: left;
-  top: -5%;
-  left: -5%;
-  width: 15%;
-  height: 110%;
-  background: darkslategrey;
-  border: .1em solid black;
-  
-}
+
 
 nav a {
   list-style: none;
@@ -87,7 +78,7 @@ h2 {
 }
 
 img {
-  width: 50%;
+  width: 75%;
   padding: 15px;
 }
 
