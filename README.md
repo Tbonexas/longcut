@@ -16,6 +16,6 @@ Demo: (insert working GIF here upon completion)
 
 
 Screenshot of app:  
-![image](https://user-images.githubusercontent.com/67118229/93689604-0930aa00-fa85-11ea-88d3-234f885ed95a.png)
+![image](https://user-images.githubusercontent.com/67118229/94054097-063cfe80-fd90-11ea-9e83-c67d180b892b.png)
 
 Credits: (everything we used for the project)  
