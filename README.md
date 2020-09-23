@@ -13,7 +13,7 @@ When I am using the map, I would like to be able to move my markers to a locatio
 
 Live Page: [Long Cut App Live](https://tbonexas.github.io/longcut  
 
-Demo: (insert working GIF here upon completion)  
+
 
 
 Screenshot of app:  
