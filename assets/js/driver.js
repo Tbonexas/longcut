@@ -1,3 +1,5 @@
+// Security issue causing this to not work to local storage on chrome//
+
 
 // var nameInput = document.querySelector("#userName");
 // var routeNumber = document.querySelector("#routeNum");
