@@ -242,7 +242,7 @@ div.menuBtns {
   position: fixed;
   bottom: 8%;
   text-align: center;
-  margin-bottom: -28px;
+  margin-bottom: -30px;
   font-size: 36px;
   font-family: 'Cinzel', serif;
   justify-content: space-evenly;
@@ -456,7 +456,7 @@ padding: 5px;
 
       div.menuBtns{
         width: 375px;
-        margin-bottom: -23px;
+        margin-bottom: -24px;
       }
       button {
         font-size: 24px;
@@ -485,5 +485,16 @@ padding: 5px;
       div#hike.column2{
         width: 330px;
         height: 380px
+      }
+      iframe.giphy-embed{
+        width: 240px;
+        max-height: 240px;
+      }
+      #gif{
+        margin-left: 18px;
+      }
+      #gif1{
+        margin-left: 5%;
+
       }
   }

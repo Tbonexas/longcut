@@ -387,7 +387,7 @@ ul.dashed > li:before {
     
         div.menuBtns{
           width: 375px;
-          margin-bottom: -31px;
+          margin-bottom: -50px;
         }
         button {
           font-size: large;
@@ -402,6 +402,13 @@ ul.dashed > li:before {
           color: white;
       
         }
+        .embed[data-ready="true"] {
+          height: 220px;
+          width: 240px;
+        }
+      #stickyfooter{
+        height: 30px;
+      }
 
     }
 
