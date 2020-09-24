@@ -196,6 +196,12 @@ h4, h5 {
   width: fit-content;
 }
 
+iframe.giphy-embed {
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -428,7 +434,7 @@ padding: 5px;
 
     div.menuBtns{
       width: 375px;
-      margin-bottom: -6px;
+      margin-bottom: -23px;
     }
     button {
       font-size: 24px;
@@ -472,5 +478,10 @@ padding: 5px;
       .i.fa.fa-user {
         margin-right: 280px;
       }
-    
+      iframe.giphy-embed {
+        margin-left: -18px;
+    }
+    button#btn.infoBtn{
+      margin-top: 10%;
+    }
 }
