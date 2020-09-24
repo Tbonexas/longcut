@@ -158,10 +158,7 @@ padding: 5px;
     background-image: none;
   }
   
-  #welcomeBtn:hover{
-    background-color: forestgreen;
-    display: none;
-  }
+  
 
   body {
    background-color: black;
@@ -334,10 +331,7 @@ padding: 5px;
   margin-top: 200px;
 }
 
-#welcomeBtn:hover{
-  background-color: forestgreen;
-  display: none;
-}
+
   
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
@@ -349,10 +343,7 @@ padding: 5px;
     margin-top: 200px;
   }
 
-  #welcomeBtn:hover{
-    background-color: forestgreen;
-    display: none;
-  }
+ 
 @media screen and (max-width: 400px) {
   html {
     background-image: none;
@@ -361,10 +352,7 @@ padding: 5px;
     margin-top: 200px;
   }
 
-  #welcomeBtn:hover{
-    background-color: forestgreen;
-    display: none;
-  }
+  
     body {
    background-color: black;
     }
@@ -437,10 +425,7 @@ padding: 5px;
       margin-top: 200px;
     }
 
-    #welcomeBtn:hover{
-      background-color: forestgreen;
-      display: none;
-    }
+  
 
     body {
         background-color: black;
