@@ -475,12 +475,12 @@ padding: 5px;
       height: 500px;
       display: flow-root;
      }
-      .i.fa.fa-user {
-        margin-right: 280px;
-      }
-      iframe.giphy-embed {
-        margin-left: -18px;
-    }
+      
+     img {
+       margin-left: -34px;
+       margin-top: -75px;
+     }
+    
     button#btn.infoBtn{
       margin-top: 10%;
     }
